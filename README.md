@@ -28,8 +28,8 @@ Master's research, in progress. An anomaly-based network IDS built around two id
 
 **Bina Nusantara University**
 
-- M.Sc. Computer Science — 2025 to present
-- B.Eng. Cyber Security — 2022 to 2026, GPA 3.49
+- Master Degree (Computer Science) — 2025 to present
+- Bachelor Degree (Cybersecurity) — 2022 to 2025, GPA 3.49
 
 ## Contact
 
