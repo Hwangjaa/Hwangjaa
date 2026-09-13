@@ -4,7 +4,7 @@ Jakarta, Indonesia · Cybersecurity & applied machine learning
 
 ## About
 
-I work at the intersection of security operations and machine learning. On the operations side, that means monitoring, triage, and incident response — reading logs carefully and acting on evidence rather than the first alert. On the research side, it means building detection models that hold up against realistic conditions: imbalanced data, drifting attack distributions, and the cost of false positives.
+I work at the intersection of security operations and machine learning. On the operations side, that means monitoring, triage, incident response, and reading logs carefully and acting on evidence rather than the first alert. On the research side, it means building detection models that hold up against realistic conditions: imbalanced data, drifting attack distributions, and the cost of false positives.
 
 Currently pursuing a Master's in Computer Science at BINUS University, researching adaptive anomaly-based intrusion detection for IoT networks.
 
