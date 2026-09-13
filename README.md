@@ -16,6 +16,10 @@ Currently pursuing a Master's in Computer Science at BINUS University, researchi
 
 ## Notable work
 
+### [Wordlist DGA Detection — N-Gram + Linguistic Feature Fusion](https://github.com/Hwangjaa/dga-wordlist-detection)
+
+Published research (ICCSCI 2026, Procedia Computer Science). Wordlist-based DGAs assemble domains from real English words, so they slip past entropy and single-type n-gram detectors — the baseline I started from scored 8.81% F1 on the Matsnu family. The method fuses n-gram statistics with linguistic features (pronounceability, vowel/consonant distribution, word reputation), then filters 48 candidates down to 12 through staged correlation analysis. Across seven classifiers on a 133k-domain Tranco/DGArchive corpus, LightGBM leads every family — Matsnu goes from 8.81% to 84.75% F1, binary detection reaches 98.94% AUC-ROC. The full experimental pipeline is in the repository.
+
 ### [SaffCoz — Fragrance Boutique](https://github.com/Hwangjaa/SaffCoz-FinalProject)
 
 Static storefront built for a Human Computer Interaction course. The constraint I set for myself: no dead controls — every interactive element does something real, and where a backend would be required, the interface routes to a real channel instead of faking success. Cart, wishlist, and search state are handled entirely client-side. The documentation maps each of Shneiderman's 8 Golden Rules to a concrete implementation decision.
