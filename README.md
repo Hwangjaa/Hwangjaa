@@ -1,82 +1,36 @@
-<p align="center">
-  <strong>Rafael Satriaprima Yudianto</strong><br />
-  Cyber Security &middot; Applied ML for detection engineering &middot; BINUS University
-</p>
+# Rafael Satriaprima Yudianto
 
-<p align="center">
-  <a href="#research">RESEARCH</a> &nbsp; / &nbsp;
-  <a href="#selected-projects">PROJECTS</a> &nbsp; / &nbsp;
-  <a href="#education">EDUCATION</a> &nbsp; / &nbsp;
-  <a href="#toolkit">TOOLKIT</a>
-</p>
+Jakarta, Indonesia · Cybersecurity & applied machine learning
 
----
+## About
 
-### Detection, evidence, and the models behind them.
+I work at the intersection of security operations and machine learning. On the operations side, that means monitoring, triage, and incident response — reading logs carefully and acting on evidence rather than the first alert. On the research side, it means building detection models that hold up against realistic conditions: imbalanced data, drifting attack distributions, and the cost of false positives.
 
-I'm a **Cyber Security graduate and Master's track student in Computer Science at BINUS University**, working where blue-team operations meet applied machine learning.
+Currently pursuing a Master's in Computer Science at BINUS University, researching adaptive anomaly-based intrusion detection for IoT networks.
 
-On the operations side I work with **SIEM monitoring, threat hunting, incident response, and vulnerability assessment and patch management** — the unglamorous half of security, where the value comes from reading the evidence carefully instead of trusting the first alert. On the research side I build **machine learning models for detection**, from DGA classification during my undergraduate studies to an adaptive anomaly-based intrusion detection system for my thesis.
+## Focus areas
 
-### Research
+- **Detection engineering** — designing and evaluating anomaly-based intrusion detection systems, from dataset preparation through metric-driven evaluation
+- **Security operations** — SIEM monitoring and triage, threat hunting, incident response, vulnerability assessment, and patch management
+- **Applied ML for security** — generative adversarial networks for class imbalance, explainability (SHAP) as an adaptive feedback signal, DGA classification
 
-**Adaptive SHAP–WGAN Intrusion Detection with Closed-Loop Feedback**
-Master's thesis &middot; in progress
+## Notable work
 
-> Anomaly-based network intrusion detection on the **N-BaIoT** dataset. A **WGAN** generator synthesises minority-class attack traffic to counter class imbalance, while **SHAP attributions** feed a closed-loop feedback path that lets the detector adapt as attack distributions drift. Evaluated against standard baselines on detection rate, false-positive rate, and robustness to unseen attacks.
+### [SaffCoz — Fragrance Boutique](https://github.com/Hwangjaa/SaffCoz-FinalProject)
 
-`Python` &middot; `PyTorch` &middot; `scikit-learn` &middot; `SHAP` &middot; `N-BaIoT`
+Static storefront built for a Human Computer Interaction course. The constraint I set for myself: no dead controls — every interactive element does something real, and where a backend would be required, the interface routes to a real channel instead of faking success. Cart, wishlist, and search state are handled entirely client-side. The documentation maps each of Shneiderman's 8 Golden Rules to a concrete implementation decision.
 
-### Selected projects
+### SHAP-WGAN Intrusion Detection
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/Hwangjaa/SaffCoz-FinalProject">01 / SaffCoz — Fragrance Boutique</a></h3>
-<p><strong>HCI &middot; FRONT-END</strong></p>
-<p>Five-page boutique storefront where every visible control actually works. Built around Shneiderman's 8 Golden Rules of Interface Design, with cart, wishlist and search persisted client-side.</p>
-<sub>HTML &middot; CSS &middot; Vanilla JS &middot; localStorage</sub>
-</td>
-<td width="50%" valign="top">
-<h3>02 / SHAP–WGAN IDS</h3>
-<p><strong>MACHINE LEARNING &middot; SECURITY</strong></p>
-<p>Adaptive anomaly-based intrusion detection for IoT networks — generative oversampling plus attribution-driven feedback. Private repository while the thesis is in progress.</p>
-<sub>Python &middot; PyTorch &middot; WGAN &middot; SHAP</sub>
-</td>
-</tr>
-</table>
+Master's research, in progress. An anomaly-based network IDS built around two ideas: a WGAN generator that synthesises minority-class attack traffic to counter class imbalance, and SHAP attributions wired into a closed-loop feedback path so detection adapts as attack distributions drift. Evaluated on the N-BaIoT dataset against standard baselines. The repository is private while the thesis is in progress, but I'm happy to discuss the approach.
 
-### Education
+## Education
 
 **Bina Nusantara University**
 
-- **Master's degree in Computer Science** &middot; 2025–present
-- **Bachelor's degree in Cyber Security** &middot; 2022–2026 &middot; GPA 3.49
+- M.Sc. Computer Science — 2025 to present
+- B.Eng. Cyber Security — 2022 to 2026, GPA 3.49
 
-| Security practice | Languages |
-| :--- | :--- |
-| Threat hunting and incident response | Indonesian — native |
-| Vulnerability assessment and patch management | English — fluent |
-| Security awareness campaigns — AI Security, Phishing, Data Privacy | |
-| Undergraduate research — ML for DGA classification | |
+## Contact
 
-### Toolkit
-
-**Code** &nbsp; `Python` &nbsp; `HTML` &nbsp; `CSS` &nbsp; `JavaScript`
-
-**Security** &nbsp; Splunk (SIEM) &middot; CrowdStrike XDR &middot; Palo Alto Firewall &middot; Cisco ISE (NAC) &middot; ManageEngine Endpoint Central &middot; Threat hunting &middot; Incident response &middot; Vulnerability assessment &middot; Patching
-
-**ML &amp; data** &nbsp; PyTorch &middot; scikit-learn &middot; SHAP &middot; NumPy/pandas &middot; Generative and adversarial models
-
-**Working style** &nbsp; Fast-paced operations &middot; Time management &middot; Technical documentation &middot; Knowledge sharing
-
----
-
-<p align="center">
-  <strong>Read the log. Model the behaviour. Verify the detection.</strong><br />
-  <sub>Clear evidence, reproducible results, responsible security practice.</sub>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/rafael-satriaprima-yudianto-423068317">LinkedIn</a>
-</p>
+The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/rafael-satriaprima-yudianto-423068317).
