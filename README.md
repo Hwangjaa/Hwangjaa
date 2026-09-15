@@ -28,6 +28,10 @@ My first published paper at ICCSCI 2026 (Procedia Computer Science), where I was
 
 Built for a Human Computer Interaction course. The rule I set for myself was simple: no dead controls. Every interactive element does something real, and where a real backend would be needed (payment, order database), the site routes to an actual channel like WhatsApp instead of faking a successful checkout. Cart, wishlist, and search all work client-side. The README maps each of Shneiderman's 8 Golden Rules to a concrete decision I made while building it.
 
+### [Sampai Kilat, a secure courier delivery system](https://github.com/Hwangjaa/Sampai-Kilat)
+
+Built for a Secure Coding course: a PHP + MySQL courier package website where the security audit came first. Every sensitive form carries synchronizer CSRF tokens verified with timing-safe comparison, all queries are parameterized prepared statements, and all database output is escaped on render. Sessions harden with HttpOnly/Secure/SameSite cookies and regeneration after login; role-based access control gates the staff dashboard server-side (the admin-only Delete endpoint re-checks the role, it never trusts the hidden button). A strict Content-Security-Policy and hardening headers ship from a single bootstrap on every request, input validation runs server-side (regex-validated tracking numbers, whitelisted warehouse statuses), and new tracking numbers are allocated inside a transaction with `SELECT ... FOR UPDATE` to prevent duplicates under concurrent requests. Database credentials live in environment variables, never in source. The README documents the threat model honestly, including deliberately kept limitations like the legacy MD5 password scheme inherited from the course template.
+
 ## Education
 
 **Bina Nusantara University**
