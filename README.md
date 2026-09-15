@@ -33,7 +33,7 @@ Built for a Human Computer Interaction course. The rule I set for myself was sim
 **Bina Nusantara University**
 
 - Master Degree (Computer Science), 2025 to present
-- Bachelor Degree (Cybersecurity), 2022 to 2025, GPA 3.49
+- Bachelor Degree (Cybersecurity), 2022 to 2025, GPA 3.54
 
 ## Contact
 
